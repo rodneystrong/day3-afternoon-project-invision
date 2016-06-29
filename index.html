@@ -9,8 +9,33 @@
   <script src="js/jquery.backstretch.min.js" async></script>
 </head>
 <body>
-  <header></header>
+  <header class="header">
+    <nav class="header-nav">
+      <ul class="nav-items">
+        <li class="nav-li">shop</li>
+        <li class="nav-li">designers</li>
+        <li class="nav-li cart">cart</li>
+      </ul>
+    </nav>
+  </header>
 
+
+
+  <!-- background carousel js -->
+  <script>
+  // To attach Backstrech as the body's background
+  //$.backstretch("path/to/image.jpg");
+
+  // You may also attach Backstretch to a block-level element
+  $(".header").backstretch("path/to/image.jpg");
+
+  // Or, to start a slideshow, just pass in an array of images
+  $(".foo").backstretch([
+    "path/to/image.jpg",
+    "path/to/image2.jpg",
+    "path/to/image3.jpg"
+  ], {duration: 4000});
+</script>
 
 </body>
 </html>
