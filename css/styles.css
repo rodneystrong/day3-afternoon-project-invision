@@ -30,6 +30,26 @@
   text-decoration: none;
 }
 
+.hero-title {
+    flex: 2 0 0;
+    margin: auto;
+    align-self: center;
+    display: flex;
+}
+
+.hero-svg {
+  align-items: center;
+  height: 30em;
+  line-height: 30em;
+  margin: auto;
+  text-align: center;
+}
+
+.hero-svg svg {
+    height: 5.44em;
+    width: 17.2em;
+}
+
 .main-content {
 
 }
