@@ -44,6 +44,7 @@
 }
 
 .grid-item {
+  float: left;
   width: 250px;
 }
 
