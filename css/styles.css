@@ -67,6 +67,7 @@
 
 .grid-item {
   float: left;
+  padding: 20px;
   width: 25%;
 }
 
