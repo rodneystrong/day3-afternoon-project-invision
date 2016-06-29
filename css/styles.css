@@ -5,6 +5,7 @@
 }
 
 .header {
+  border: 8px solid #fff;
   height: 100vh;
 }
 
@@ -31,13 +32,27 @@
 
 }
 
+.container {
+  margin: 0 auto;
+  max-width: 100em;
+  padding: 0 1.25em;
+}
+
 /*product layout*/
+.products {
+  padding-top: 100px;
+}
+
 .grid-item {
-  width: 360px;
+  width: 250px;
+}
+
+.grid-item img {
+  max-width: 100%;
 }
 
 .grid-item--width2 {
-  width: 760px;
+  width: 700px;
 }
 
 /*media queries*/
