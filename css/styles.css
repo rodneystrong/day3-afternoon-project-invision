@@ -32,6 +32,13 @@
 }
 
 /*product layout*/
+.grid-item {
+  width: 360px;
+}
+
+.grid-item--width2 {
+  width: 760px;
+}
 
 /*media queries*/
 @media screen and (min-width: 1024px) {
