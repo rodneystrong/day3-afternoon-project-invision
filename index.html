@@ -7,17 +7,33 @@
   <link rel="stylesheet" href="css/styles.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
   <script src="js/jquery.backstretch.min.js"></script>
+  <script src="js/masonry.pkgd.min.js"></script>
 </head>
 <body>
   <header class="header">
     <nav class="header-nav">
       <ul class="nav-items">
-        <li class="nav-li">shop</li>
-        <li class="nav-li">designers</li>
-        <li class="nav-li cart">cart</li>
+        <li class="nav-li"><a href="#">shop</a></li>
+        <li class="nav-li"><a href="#">designers</a></li>
+        <li class="nav-li cart"><a href="#">cart</a></li>
       </ul>
     </nav>
+    <div class="hero-title"></div>
   </header>
+
+  <main class="main-content" role="main">
+    <div class="container">
+      <section class="products">
+        <div class="grid">
+          <div class="grid-item"><img src="https://placekitten.com/800/800" alt="kitty!"></div>
+          <div class="grid-item grid-item--width2"><img src="https://placekitten.com/800/800" alt="kitty!"></div>
+          <div class="grid-item"><img src="https://placekitten.com/800/800" alt="kitty!"></div>
+        </div>
+      </section>
+      <section class="newsletter">
+      </section>
+    </div>
+  </main>
 
 
 
@@ -36,7 +52,10 @@
         "img/mp-hero-02.jpg",
         "img/mp-hero-03.jpg"
         ],
-        {duration: 2000}
+        {
+          duration: 2000,
+          fade: 500
+        }
     );
   //});
   </script>
