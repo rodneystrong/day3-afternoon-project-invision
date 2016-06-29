@@ -5,8 +5,8 @@
   <title>Invision MKT</title>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/styles.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" async></script>
-  <script src="js/jquery.backstretch.min.js" async></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+  <script src="js/jquery.backstretch.min.js"></script>
 </head>
 <body>
   <header class="header">
@@ -27,15 +27,19 @@
   //$.backstretch("path/to/image.jpg");
 
   // You may also attach Backstretch to a block-level element
-  $(".header").backstretch("path/to/image.jpg");
+  //$(".header").backstretch("path/to/image.jpg");
 
   // Or, to start a slideshow, just pass in an array of images
-  $(".foo").backstretch([
-    "path/to/image.jpg",
-    "path/to/image2.jpg",
-    "path/to/image3.jpg"
-  ], {duration: 4000});
-</script>
+  //$(document).ready(function() {
+    $(".header").backstretch([
+        "img/mp-hero-01.jpg",
+        "img/mp-hero-02.jpg",
+        "img/mp-hero-03.jpg"
+        ],
+        {duration: 2000}
+    );
+  //});
+  </script>
 
 </body>
 </html>
